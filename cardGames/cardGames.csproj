@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CE304DB4-C1AF-45D5-A660-33B8898AACF6}</ProjectGuid>
+    <ProjectGuid>{85705EBD-469C-4C67-BBB0-A88641E324A9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>netCardGame</RootNamespace>
-    <AssemblyName>netCardGame</AssemblyName>
+    <RootNamespace>cardGames</RootNamespace>
+    <AssemblyName>cardGames</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
